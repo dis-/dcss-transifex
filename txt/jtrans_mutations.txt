@@ -1,5 +1,6 @@
 %%%%
-############################## mutation-data.h ##############################
+# "############################## mutation-data.h ##############################
+"############################## mutation-data.h ##############################
 %%%%
 # MUT_TOUGH_SKIN
 tough skin
@@ -3185,7 +3186,7 @@ You are immune to clouds of flame.
 %%%%
 You feel less concerned about heat.
 
-あなたは熱気をあまり気にしなくなったようだ。
+# obsolete
 %%%%
 immunity to flaming clouds
 
@@ -3202,7 +3203,7 @@ You are immune to freezing clouds.
 %%%%
 You feel less concerned about cold.
 
-あなたは冷気をあまり気にしなくなったようだ。
+# obsolete
 %%%%
 immunity to freezing clouds
 
@@ -3921,7 +3922,8 @@ claws that catch
 
 
 %%%%
-############################## output.cc ##############################
+# "############################## output.cc ##############################
+"############################## output.cc ##############################
 %%%%
 change form in water
 

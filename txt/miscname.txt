@@ -1,5 +1,12 @@
 %%%%
+# "######################################################
+# Miscellaneous
+# -------------
+# miscname.txt: lookup miscellaneous names
+#
+# This file contains a list of names for miscellaneous things.
 ######################################################
+"######################################################
 # Miscellaneous
 # -------------
 # miscname.txt: lookup miscellaneous names

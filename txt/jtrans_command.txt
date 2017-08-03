@@ -62,7 +62,7 @@ Amulet ring
 %%%%
 (currently unavailable)
 
-(現在装着できない)
+(現在装備できない)
 %%%%
 No questions found in FAQ! Please submit a bug report!
 
@@ -356,7 +356,7 @@ set Waypoint
 %%%%
 <brown>\</brown> : staves and rods (<w>%</w>ield and e<w>%</w>oke)
 
-<brown>\</brown> : 杖およびロッド / <w>%</w>)ieldで手に持ち、
+<brown>\\</brown> : 杖およびロッド / <w>%</w>)ieldで手に持ち、
     e(<w>%</w>)okeで発動させる。
 %%%%
 <lightgreen>}</lightgreen> : miscellaneous items (e<w>%</w>oke)
@@ -984,7 +984,7 @@ if still alive and in sight
 %%%%
 <w>\</w>      make a shop
 
-<w>\</w>      店を生成する
+<w>\\</w>      店を生成する
 %%%%
 <w>Ctrl-K</w> mark all vaults as unused
 

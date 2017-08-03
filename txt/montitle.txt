@@ -1,5 +1,9 @@
 %%%%
-###############################################################################
+# "###############################################################################
+# Monster titles.
+# Displayed when they first come into view and on their description screen.
+#########
+"###############################################################################
 # Monster titles.
 # Displayed when they first come into view and on their description screen.
 #########

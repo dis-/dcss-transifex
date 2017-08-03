@@ -43,7 +43,23 @@ This card doesn't seem to belong here.
 
 このカードはこのデッキのものではないようだ。
 %%%%
-# obsolete cards
+# "# obsolete cards
+#
+# the Portal
+# the Warp
+# Battlelust
+# Metamorphosis
+# Shuffle
+# Experience
+# the Sage
+# the Trowel
+# the Minefield
+# the Genie
+# Vitrification
+# the Bargain
+# the Herd
+# the Bones
+"# obsolete cards
 #
 # the Portal
 # the Warp
@@ -320,11 +336,17 @@ more cards than flags.
 
 # message for bug
 %%%%
-#            strm << "Have you used " << deck.used_count << " cards, or "
+# "#            strm << "Have you used " << deck.used_count << " cards, or "
+#                 << (deck.initial_cards - num_cards) << "? Oops.";
+# message for bug
+"#            strm << "Have you used " << deck.used_count << " cards, or "
 #                 << (deck.initial_cards - num_cards) << "? Oops.";
 # message for bug
 %%%%
-#            strm << "There are " << num_cards << " cards left, not "
+# "#            strm << "There are " << num_cards << " cards left, not "
+#                 << (-deck.used_count) << ".  Oops.";
+# message for bug
+"#            strm << "There are " << num_cards << " cards left, not "
 #                 << (-deck.used_count) << ".  Oops.";
 # message for bug
 %%%%

@@ -1,5 +1,17 @@
 %%%%
+# "############################################################
+# As of Stone Soup 0.3 the previously hardcoded monster
+# speech has been outsourced. This makes changing existing
+# messages, and adding new ones really easy.
+#
+# shout.txt holds the utterances (and visual equivalents) of
+# monsters that notice you.
+#
+# For an explanation of how to read monspeak.txt or shout.txt
+# and how to add new messages, see monster_speech.txt in the
+# docs/develop/ directory.
 ############################################################
+"############################################################
 # As of Stone Soup 0.3 the previously hardcoded monster
 # speech has been outsourced. This makes changing existing
 # messages, and adding new ones really easy.
@@ -218,7 +230,15 @@ __RUMBLE seen
 # SOUND:@The_monster@ rumbles deeply!
 SOUND:@The_monster@は重々しくゴロゴロと音を立てた。
 %%%%
+# "############################################
+# End of default shouts
 ############################################
+############################################################
+# Player ghost shouts. Potentially different ones for each
+# class, though currently they all just copy the default
+# player ghost.
+############################################################
+"############################################
 # End of default shouts
 ############################################
 ############################################################

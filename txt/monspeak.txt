@@ -100,7 +100,11 @@ _pointless_
 # useless
 無意味だ
 %%%%
+# "############################################################
+# Library of speeches for types of monsters, like priests,
+# wizards, guards and so on.
 ############################################################
+"############################################################
 # Library of speeches for types of monsters, like priests,
 # wizards, guards and so on.
 ############################################################
@@ -6729,7 +6733,11 @@ _Xtahua_rare_
 @The_monster@ roars, "BAH! BLOODY ADVENTURERS." @player_only@
 ## END Xtahua ##
 %%%%
+# "##########################################
+# Specific non-unique monsters
 ##########################################
+################## Bennu ###################################
+"##########################################
 # Specific non-unique monsters
 ##########################################
 ################## Bennu ###################################

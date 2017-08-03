@@ -21,7 +21,7 @@ pick-up
 <h>アイテム種別ごとの選択</h>
 以下の文字を入力することで特定の種別をまとめて選択できる。
 <w>!</w>   薬           <w>(</w>   武器           <w>)</w>   飛び道具の弾    <w>[</w>   防具
-<w>/</w>   ワンド       <w>\</w>   ロッド         <w>|</w>   魔法の杖        <w>?</w>   巻物
+<w>/</w>   ワンド       <w>\\</w>   ロッド         <w>|</w>   魔法の杖        <w>?</w>   巻物
 <w>"</w>   護符         <w>=</w>   指輪           <w>}</w>   その他の道具    <w>:</w> または <w>+</w>   魔法書
 <w>%</w>   食料
 全体選択:  <w>,</w>   全てを選択     <w>*</w>   全てを反転      <w>-</w>   全てを選択解除
@@ -54,7 +54,7 @@ known-menu
 全体指定:  <w>*</w>   全部の選択を反転させる   <w>^</w>   全部を初期設定に戻す
 　
 <h>鑑定済み/未鑑定のアイテム一覧画面</h>
-<w>\</w> または <w>-</w> を押すことで認識しているアイテム一覧と未鑑定のアイテム一覧を切り替え
+<w>\\</w> または <w>-</w> を押すことで認識しているアイテム一覧と未鑑定のアイテム一覧を切り替え
 できる。
 未鑑定のアイテム一覧画面においては上記の操作は無効であることに注意すること。
 　
@@ -91,9 +91,9 @@ Some examples of search strings:
               Note that D:[3-10] will not work as intended, since [x-y] is a
               regex character range.
 <w>rPois</w>         finds all items with an rPois resistance.
-<w>rC\+\+</w>        finds all items with an rC++ resistance.
-<w>\+3</w>           finds all items with a +3 enchantment. Note with these that
-              the + symbol had to be escaped as \+ due to regex syntax.
+<w>rC\\+\\+</w>        finds all items with an rC++ resistance.
+<w>\\+3</w>           finds all items with a +3 enchantment. Note with these that
+              the + symbol had to be escaped as \\+ due to regex syntax.
 <w>Lair.*axe</w> and <w>axe && Lair</w> both show all axes in the Lair.
 　
 Some shortcuts:
@@ -170,7 +170,7 @@ level-map
 <h>順繰りに選択するコマンド:</h>
 <w><<</w>または<w>></w>     : 上り/下り階段を順繰りに選択する。
 <w>^</w>            : 罠を順繰りに選択する。
-<w>\</w>または<w>Tab</w>   : 店またはポータルを順繰りに選択する。
+<w>\\</w>または<w>Tab</w>   : 店またはポータルを順繰りに選択する。
 <w>I</w>            : 全てのアイテムを順に選択する。
 <w>O</w>            : 全てのアイテムを逆順に選択する。
 <w>_</w>            : 祭壇を順繰りに選択する。
