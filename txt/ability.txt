@@ -13,7 +13,7 @@ Blink ability
 %%%%
 Breathe Dispelling Energy ability
 
-指定したモンスターに、付与された魔術を解除する力の爆風を吹きかける。
+指定したモンスターに、付与された魔術を解除する矢を放つ。
 %%%%
 Breathe Fire ability
 
@@ -40,13 +40,10 @@ Breathe Poison Gas ability
 Breathe Lightning ability
 
 制御不能な稲妻の嵐を引き起こす巨大な放電を開放する。
+この能力は防具では完全には防げない。
 %%%%
-Breathe Sticky Flame ability
-
-指定したモンスターに焼夷の炎の爆風を吹きかける。
-名前が示すように粘着性の炎が纏わりつき、
-火が消えるまでのしばらくの間モンスターは炎に包まれます。
-爆風は対象に当たると周囲に飛散する。
+# Breathe Acid ability
+Breathe Acid ability
 %%%%
 Breathe Steam ability
 
@@ -65,39 +62,29 @@ Bat Form ability
 その飛行は魔術的に増大されており、
 例えあなたの持ち物の重量や何かの障害が通常あなたを引きずり下ろす場合でも空中に留まることができる。
 %%%%
-Bottle Blood ability
-
-6レベル以上の場合、
-吸血鬼は足元にある腐っていない血液を持った死体から血液を抽出して、
-瓶詰めにすることができる。
-%%%%
-Spit Acid ability
-
-指定したモンスターに酸を吐きだす。
-%%%%
 Fly ability
 
 飛行を開始する。飛行中は安全に水などの障害物を飛び越えることができる。
 しかし注意せよ、飛行は都合の悪い瞬間に時間切れになり、
 あなたの死の原因になる場合がある。
 %%%%
-Hellfire ability
-
-敵を地獄の業火で爆破する。この不浄な炎の球は着弾とともに炸裂し、
-鎧や耐性などのあらゆる手段の防御の影響を受けない。しかしながら、ある種の、
-主に炎から生まれた、怪物たちは地獄の業火への完全な免疫を持っている。
+# Hurl Damnation ability
+Hurl Damnation ability
 %%%%
-Stop Singing ability
-
-殺戮の歌を歌い終わる。
+# Cancel Portal Projectile ability
+Cancel Portal Projectile ability
 %%%%
-Device Recharging ability
-
-1ポイントのMPを永久的に損失することで、ワンドかロッドを充填する。
+# Heal Wounds ability
+Heal Wounds ability
 %%%%
-Evoke Teleportation ability
-
-階層の無作為の位置にあなた自身をテレポートさせる。
+# Dig ability
+Dig ability
+%%%%
+# Shaft Self ability
+Shaft Self ability
+%%%%
+# Evoke Blink ability
+Evoke Blink ability
 %%%%
 Evoke Berserk Rage ability
 
@@ -113,9 +100,8 @@ Evoke Invisibility ability
 限られた時間あなた自身を透明化することができる。
 透明化はあなたの魔力による汚染を増大させ、最終的に発光を引き起こす可能性がある。
 %%%%
-Turn Visible ability
-
-再び可視状態に戻る。
+# Evoke Flight ability
+Evoke Flight ability
 %%%%
 Stop Flying ability
 
@@ -125,16 +111,15 @@ Evoke Fog ability
 
 不明瞭な視界を作る厚い霧の雲を放つ。
 %%%%
-Evoke Teleport Control ability
-
-次回の転移を制御する能力を獲得する。テレポートはおおよその転移の目標を選択でき、
-瞬間移動は転移する方向を選択することができる。
-制御された転移は魔力による汚染を引き起こすことと、
-制御されたテレポートは制御されてないものよりも発動に時間がかかることに注意せよ。
+# Evoke Ratskin ability
+Evoke Ratskin ability
 %%%%
 End Transformation ability
 
 多少の時間をかけて通常の姿に戻る。
+%%%%
+# Recite ability
+Recite ability
 %%%%
 Vitalisation ability
 
@@ -174,6 +159,9 @@ Summon Divine Warrior ability
 悪を撃つ強力な戦士である天使やディーヴァを召喚する。
 彼らは『輝けるもの』によってこの世界により長く滞在するように祝福される。
 %%%%
+# Brand Weapon With Holy Wrath ability
+Brand Weapon With Holy Wrath ability
+%%%%
 Receive Corpses ability
 
 あなたの近くに1体以上の蘇生可能なモンスターの死体を創り出す。
@@ -186,6 +174,12 @@ Torment ability
 
 キクバークッグァはあなたを苦痛から保護する...かもしれない。
 %%%%
+# Brand Weapon With Pain ability
+Brand Weapon With Pain ability
+%%%%
+# Receive Necronomicon ability
+Receive Necronomicon ability
+%%%%
 Animate Remains ability
 
 一つの死体か骨をしもべとして蘇生する。
@@ -194,6 +188,9 @@ Animate Remains ability
 Recall Undead Slaves ability
 
 ダンジョンのあらゆる場所からあなたのすぐ間近にアンデッドのしもべを招集する。
+%%%%
+# Injury Mirror ability
+Injury Mirror ability
 %%%%
 Animate Dead ability
 
@@ -217,10 +214,6 @@ Enslave Soul ability
 
 隷属した魂は彼らが作成された階層を離れてあなたに従うことができることに注意せよ。
 %%%%
-Animate Remains or Dead ability
-
-もしこの文章が表示されいるならば、それはバグだ。
-%%%%
 Heroism ability
 
 一時的に隠密スキルを含んだあなたの全ての戦闘スキルを向上する。
@@ -235,13 +228,24 @@ Minor Destruction ability
 
 指定したモンスターにランダムな有害な爆風を放つ。
 %%%%
+# Lesser Servant of Makhleb ability
+Lesser Servant of Makhleb ability
+%%%%
 Major Destruction ability
 
 指定したモンスターにランダムな有害な光線、もしくは爆発を放つ。
 %%%%
-Channel Energy ability
-
-あなたの祈祷スキルに応じた量の魔力を補充する。
+# Greater Servant of Makhleb ability
+Greater Servant of Makhleb ability
+%%%%
+# Divine Energy ability
+Divine Energy ability
+%%%%
+# Stop Divine Energy ability
+Stop Divine Energy ability
+%%%%
+# Channel Magic ability
+Channel Magic ability
 %%%%
 Forget Spell ability
 
@@ -265,6 +269,9 @@ Berserk ability
 他の狂戦士化とは異なり、
 あなたの信仰値に応じて時折トログはあなたの気絶を予防することがある。
 %%%%
+# Trog's Hand ability
+Trog's Hand ability
+%%%%
 Brothers in Arms ability
 
 大破壊をもたらす巨大な怒れる盟友を召喚する。
@@ -278,14 +285,16 @@ Divine Protection ability
 
 心得よ!自分が死を免れることを望みながら他者を殺害することは大きな罪であるということを！
 %%%%
-Lesser Self-Healing ability
-
-あなたの祈祷スキルに応じて、体力を少量回復する。
+# Lesser Healing ability
+Lesser Healing ability
 %%%%
 Purification ability
 
 病気や毒、減速、石化、混乱、腐敗のようなあなたの体の全ての悪影響を消去し、腕力、
 知力、器用さを完全に回復する。
+%%%%
+# Heal Other ability
+Heal Other ability
 %%%%
 Greater Healing ability
 
@@ -304,15 +313,15 @@ Greater Healing ability
 
 あなたは中立のモンスターや仲間を癒すこともできる。
 %%%%
-Greater Self-Healing ability
-
-あなたの祈祷スキルに応じて、体力をある程度回復する。これは大雑把に言って、
-小さき癒しの約3倍の体力を回復することができるが、
-消費する信仰値の総量は若干大きくなる。
+# Divine Vigour ability
+Divine Vigour ability
 %%%%
 Depart the Abyss ability
 
 アビスから脱出し、あなたが元居た場所に戻る。
+%%%%
+# Bend Space ability
+Bend Space ability
 %%%%
 Banish ability
 
@@ -329,6 +338,9 @@ Enter the Abyss ability
 
 あなた自身を即座にルゴヌの領域に転移させる。しかしこの能力を使用する試みですら、
 あなたの体力と魔力を激減させる。
+%%%%
+# Brand Weapon With Distortion ability
+Brand Weapon With Distortion ability
 %%%%
 Triple Draw ability
 
@@ -360,12 +372,24 @@ Stop Recall ability
 
 あなたの従者たちを呼び寄せることをやめる。
 %%%%
+# Give Item to Named Follower ability
+Give Item to Named Follower ability
+%%%%
+# Resurrection ability
+Resurrection ability
+%%%%
+# Fungal Bloom ability
+Fungal Bloom ability
+%%%%
 Sunlight ability
 
 ダンジョンの小さな領域に陽光を喚起する。
 光に照らされたモンスターには攻撃が当たりやすくなる。また、
 日光の影響を受けた水は蒸発する。具体的には深い水脈は浅い水脈になり、
 浅い水脈は完全に干上がり、ダンジョンの床を露わにする。
+%%%%
+# Growth ability
+Growth ability
 %%%%
 Rain ability
 
@@ -393,6 +417,9 @@ Bend Time ability
 Temporal Distortion ability
 
 あなたの周囲の時間の流れを歪め、モンスターをあなたと相対的に先の時間へと飛ばす。
+%%%%
+# Slouch ability
+Slouch ability
 %%%%
 Step From Time ability
 
@@ -432,6 +459,102 @@ Shadow Step ability
 その影にあなたが十分狙いを付けられるほど静止しているならば、
 この能力によりあなたは怪物の影を通じて瞬時に怪物の隣に移動することができる。
 %%%%
+# Shadow Form ability
+Shadow Form ability
+%%%%
+# Potion Petition ability
+Potion Petition ability
+%%%%
+# Call Merchant ability
+Call Merchant ability
+%%%%
+# Bribe Branch ability
+Bribe Branch ability
+%%%%
+# Device Surge ability
+Device Surge ability
+%%%%
+# Upheaval ability
+Upheaval ability
+%%%%
+# Elemental Force ability
+Elemental Force ability
+%%%%
+# Disaster Area ability
+Disaster Area ability
+%%%%
+# Draw Out Power ability
+Draw Out Power ability
+%%%%
+# Power Leap ability
+Power Leap ability
+%%%%
+# Apocalypse ability
+Apocalypse ability
+%%%%
+# Sacrifice Purity ability
+Sacrifice Purity ability
+%%%%
+# Sacrifice Words ability
+Sacrifice Words ability
+%%%%
+# Sacrifice Drink ability
+Sacrifice Drink ability
+%%%%
+# Sacrifice Essence ability
+Sacrifice Essence ability
+%%%%
+# Sacrifice Health ability
+Sacrifice Health ability
+%%%%
+# Sacrifice Stealth ability
+Sacrifice Stealth ability
+%%%%
+# Sacrifice Artifice ability
+Sacrifice Artifice ability
+%%%%
+# Sacrifice Love ability
+Sacrifice Love ability
+%%%%
+# Sacrifice Courage ability
+Sacrifice Courage ability
+%%%%
+# Sacrifice Arcana ability
+Sacrifice Arcana ability
+%%%%
+# Sacrifice Nimbleness ability
+Sacrifice Nimbleness ability
+%%%%
+# Sacrifice Durability ability
+Sacrifice Durability ability
+%%%%
+# Sacrifice a Hand ability
+Sacrifice a Hand ability
+%%%%
+# Sacrifice Experience ability
+Sacrifice Experience ability
+%%%%
+# Sacrifice Skill ability
+Sacrifice Skill ability
+%%%%
+# Sacrifice an Eye ability
+Sacrifice an Eye ability
+%%%%
+# Sacrifice Resistance ability
+Sacrifice Resistance ability
+%%%%
+# Reject Sacrifices ability
+Reject Sacrifices ability
+%%%%
+# Stomp ability
+Stomp ability
+%%%%
+# Line Pass ability
+Line Pass ability
+%%%%
+# Grand Finale ability
+Grand Finale ability
+%%%%
 Renounce Religion ability
 
 あなたの信仰を放棄する。これはあなたのキャラクターに信仰する神を見捨てさせる
@@ -446,112 +569,42 @@ Convert to Beogh ability
 
 他の全ての神はビオを嫌い、軽々しく改宗者を受け容れない。
 %%%%
-Make oklob sapling ability
-
-指定した位置に酸を吐く能力を持ったオクロブの幼草を植える。
+# Donate Gold ability
+Donate Gold ability
 %%%%
-Make arrow trap ability
-
-指定した位置に弓矢の罠を生成する。
+# Curse Item ability
+Curse Item ability
 %%%%
-Make plant ability
-
-指定した位置に迷宮草を生やす。
+# Recall Ancestor ability
+Recall Ancestor ability
 %%%%
-Remove Curse ability
-
-あなたの装備品全てを解呪する。
+# Idealise ability
+Idealise ability
 %%%%
-Make burning bush ability
-
-指定した位置に火炎を投射し、透明視を備えた火吹き草を植え付ける。
+# Transference ability
+Transference ability
 %%%%
-Make altar ability
-
-あなたのいる位置に選択した神の祭壇を生成する。
+# Ancestor Life: Knight ability
+Ancestor Life: Knight ability
 %%%%
-Make grenades ability
-
-あなたの周りに幾多の爆発する巨大胞子を生み出す。
+# Ancestor Life: Battlemage ability
+Ancestor Life: Battlemage ability
 %%%%
-Make oklob plant ability
-
-指定した位置に酸を吐く能力を備えた完全に成長したオクロブ草を生やす。
+# Ancestor Life: Hexer ability
+Ancestor Life: Hexer ability
 %%%%
-Make net trap ability
-
-指定した位置に網の罠を生成する。
+# Ancestor Identity ability
+Ancestor Identity ability
 %%%%
-Make ice statue ability
-
-指定した位置に様々な氷の能力を持つ像を建てる。
+# Wall Jump ability
+Wall Jump ability
 %%%%
-Make spear trap ability
-
-指定した位置に槍の罠を生成する。
+# Serpent's Lash ability
+Serpent's Lash ability
 %%%%
-Make alarm trap ability
-
-指定した位置にモンスターの存在を警告する警報の罠を生成する。
+# Heavenly Storm ability
+Heavenly Storm ability
 %%%%
-Make mushroom circle ability
-
-指定した位置を中心としたキノコの円環を成長させる。
-%%%%
-Make bolt trap ability
-
-指定した位置にクロスボウの罠を生成する。
-%%%%
-Make crystal statue ability
-
-モンスターを混乱させる能力を持った像を指定した位置に建てる。
-%%%%
-Make needle trap ability
-
-指定した位置に毒の吹き矢の罠を生成する。
-%%%%
-Zot-teleport ability
-
-制御されたテレポートを発動する。
-%%%%
-Make water ability
-
-あなたのいる位置に浅い水たまりを生成する。
-%%%%
-Make lightning spire ability
-
-指定した位置に電撃を放射する稲光の尖塔を建築する。
-%%%%
-Make obsidian statue ability
-
-友好的な悪魔を召喚する能力を持った像を指定した位置に建てる。
-%%%%
-Make bazaar ability
-
-あなたのいる位置にバザールへの門を作成する。
-%%%%
-Acquire gold ability
-
-巨額の金貨を獲得する。
-%%%%
-Make oklob circle ability
-
-指定した位置を中心としたオクロブ草の円環を成長させる。
-%%%%
-Sage ability
-
-特定のスキルにあなたの得た経験値の幾らかを集中させ、通常より早くそれを訓練する。
-%%%%
-Acquirement ability
-
-選択した種類のアイテムを獲得する。
-%%%%
-Make blade trap ability
-
-指定した場所に刃の罠を生成する。
-%%%%
-Make curse skull ability
-
-自身への死霊術のファンブルを代価に、
-狙った位置にアンデッドを召喚する能力を持った呪いの頭蓋骨を創り出す。
+# Hop ability
+Hop ability
 %%%%
