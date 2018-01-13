@@ -602,10 +602,12 @@ Donate Gold ability
 Donate Gold ability
 %%%%
 Curse Item ability
-Curse Item ability
+
+解呪の巻物を消費して、選択したアイテムを呪縛する。
 %%%%
 Recall Ancestor ability
-Recall Ancestor ability
+
+ダンジョンのあらゆる場所からあなたのすぐ間近に祖霊を招集する。
 %%%%
 Idealise ability
 Idealise ability
